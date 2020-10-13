@@ -1,0 +1,23 @@
+Stats
+
+To clean
+1) fix directors column
+2) Get percent unique value of genres
+
+Todo
+1) Figure out how many genres there are by percent and maybe drop small ones
+2) correlation matrix
+3) graphs and stats for columns that have a high correlation
+
+Questions:
+- How to handle cast column
+    - Either we 1 hot encode all the actors
+    - Label encode the column (ie the combinations of actors)
+    - Take the number of actors
+
+- Inputing critic percent and averages:
+    - Is it acceptable?
+    - Or better to drop the NaN
+
+Results
+- For actors - take the movies with 
